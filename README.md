@@ -60,7 +60,6 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 tokenizer = AutoTokenizer.from_pretrained("lauyon/quantifying-stereotype-distilbert")
 model = AutoModelForSequenceClassification.from_pretrained("lauyon/quantifying-stereotype-distilbert")
-
 ```
 
 For the RoBERTa model
@@ -70,5 +69,14 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 tokenizer = AutoTokenizer.from_pretrained("lauyon/quantifying-stereotype-roberta")
 model = AutoModelForSequenceClassification.from_pretrained("lauyon/quantifying-stereotype-roberta")
+```
 
+If this work has helped you in any way, please cite it by the following:
+```bibtex
+@article{liu2024quantifying,
+  title={Quantifying Stereotypes in Language},
+  author={Liu, Yang},
+  journal={arXiv preprint arXiv:2401.15535},
+  year={2024}
+}
 ```
