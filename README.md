@@ -73,10 +73,18 @@ model = AutoModelForSequenceClassification.from_pretrained("lauyon/quantifying-s
 
 If this work has helped you in any way, please cite it by the following:
 ```bibtex
-@article{liu2024quantifying,
-  title={Quantifying Stereotypes in Language},
-  author={Liu, Yang},
-  journal={arXiv preprint arXiv:2401.15535},
-  year={2024}
+@inproceedings{liu-2024-quantifying,
+    title = "Quantifying Stereotypes in Language",
+    author = "Liu, Yang",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.74",
+    pages = "1223--1240",
+    abstract = "A stereotype is a generalized perception of a specific group of humans. It is often potentially encoded in human language, which is more common in texts on social issues. Previous works simply define a sentence as stereotypical and anti-stereotypical. However, the stereotype of a sentence may require fine-grained quantification. In this paper, to fill this gap, we quantify stereotypes in language by annotating a dataset. We use the pre-trained language models (PLMs) to learn this dataset to predict stereotypes of sentences. Then, we discuss stereotypes about common social issues such as hate speech, sexism, sentiments, and disadvantaged and advantaged groups. We demonstrate the connections and differences between stereotypes and common social issues, and all four studies validate the general findings of the current studies. In addition, our work suggests that fine-grained stereotype scores are a highly relevant and competitive dimension for research on social issues. The models and datasets used in this paper are available at https://anonymous.4open.science/r/quantifying{\_}stereotypes{\_}in{\_}language.",
 }
 ```
